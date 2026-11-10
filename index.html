@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff7f8">
+<title>Lucy Nails | Beautiful Nails, Beautiful You</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--pink:#f7dce3;--soft:#fff7f8;--rose:#bd667d;--wine:#632c40;--ink:#30232a;--muted:#806f76;--line:#f0e3e7}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:'DM Sans',sans-serif;color:var(--ink);line-height:1.6}a{text-decoration:none;color:inherit}
+.top{background:var(--wine);color:white;text-align:center;padding:8px;font-size:11px;letter-spacing:2px}
+header{position:sticky;top:0;z-index:5;background:#ffffffed;border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+nav{max-width:1100px;margin:auto;padding:14px 20px;display:flex;justify-content:space-between;align-items:center}.brand{font:700 25px 'Playfair Display';color:var(--wine)}.brand span{color:var(--rose)}
+.navlinks{display:flex;align-items:center;gap:22px;font-size:13px;font-weight:700}.pill,.btn{background:var(--wine);color:white;padding:12px 20px;border-radius:30px;display:inline-block;font-size:13px;font-weight:700}
+.hero{background:linear-gradient(115deg,var(--soft),white 55%,#f9e8ed)}.hero-inner{max-width:1100px;margin:auto;padding:65px 20px;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}
+.eyebrow{color:var(--rose);font-size:10px;letter-spacing:3px;text-transform:uppercase;font-weight:700;margin-bottom:15px}
+h1,h2,h3{font-family:'Playfair Display',serif;line-height:1.15}h1{font-size:clamp(42px,6vw,66px);color:var(--wine);margin-bottom:18px}.hero p,.intro p{color:var(--muted);font-size:15px;max-width:470px;margin-bottom:25px}
+.heroimg{position:relative;max-width:470px;justify-self:end;width:100%}.heroimg img{width:100%;height:480px;object-fit:cover;border-radius:48% 48% 18px 18px;box-shadow:0 20px 45px #632c4020}.note{position:absolute;bottom:20px;left:-20px;background:white;padding:12px 16px;border-radius:12px;color:var(--wine);font-size:12px;font-weight:700}
+section{padding:72px 20px}.wrap{max-width:1100px;margin:auto}.intro{text-align:center;max-width:600px;margin:0 auto 35px}.intro h2{font-size:clamp(32px,4vw,43px);color:var(--wine);margin-bottom:10px}.intro p{margin:auto}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:18px;padding:25px;box-shadow:0 8px 25px #632c400a}.num{font-size:10px;color:var(--rose);letter-spacing:2px;font-weight:700}.card h3{font-size:25px;color:var(--wine);margin:13px 0 8px}.card p{color:var(--muted);font-size:13px;min-height:42px}.pricebar{border-top:1px solid var(--line);margin-top:20px;padding-top:16px;display:flex;justify-content:space-between;align-items:center}.price{font-weight:700;font-size:21px;color:var(--wine)}.book{font-size:12px;font-weight:700;color:var(--rose)}
+.gallery{background:var(--soft)}.photos{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:15px}.photos img{width:100%;height:340px;object-fit:cover;border-radius:15px}.photos img:first-child{height:390px}
+.banner{background:var(--wine);color:white;text-align:center;padding:55px 20px}.banner h2{font-size:34px;margin-bottom:12px}.banner p{max-width:570px;margin:auto;color:#f4dfe6;font-size:14px}
+.contact{text-align:center}.contact h2{font-size:clamp(31px,4vw,43px);color:var(--wine);margin-bottom:12px}.contact p{color:var(--muted);max-width:520px;margin:0 auto 24px;font-size:14px}
+footer{text-align:center;background:#2f2027;color:#e9dce1;padding:25px 15px;font-size:11px}footer strong{color:white}.credit{color:#d99caf;margin-top:6px}
+.float{position:fixed;right:16px;bottom:16px;background:#168b55;color:white;border-radius:30px;padding:13px 17px;font-size:12px;font-weight:700;z-index:10;box-shadow:0 8px 20px #0002}
+@media(max-width:740px){.navlinks{gap:10px}.navlinks a:not(.pill){display:none}.hero-inner{grid-template-columns:1fr;padding:48px 20px;gap:30px}.heroimg{justify-self:center}.heroimg img{height:400px}.note{left:8px}section{padding:56px 18px}.cards{grid-template-columns:1fr}.photos{grid-template-columns:1fr 1fr;gap:9px}.photos img,.photos img:first-child{height:225px}.photos img:first-child{grid-column:span 2;height:300px}}
+</style>
+</head>
+<body>
+<div class="top">BEAUTY • DETAIL • CONFIDENCE</div>
+<header><nav><a class="brand" href="#home">Lucy <span>Nails</span></a><div class="navlinks"><a href="#services">Services</a><a href="#gallery">Our Work</a><a class="pill" href="#contact">Book on WhatsApp</a></div></nav></header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+<div><div class="eyebrow">A little beauty at your fingertips</div><h1>Beautiful Nails.<br>Beautiful You.</h1><p>Give your hands the attention they deserve. Explore our nail services, view our work and book your next appointment directly on WhatsApp.</p><a class="btn" href="#services">Explore Services</a></div>
+<div class="heroimg"><img src="images/nails-burgundy-pink.jpg" alt="Burgundy and pink nail design by Lucy Nails"><div class="note">Your nails, your style ✨</div></div>
+</div></section>
+<section id="services"><div class="wrap"><div class="intro"><div class="eyebrow">Choose your look</div><h2>Our Nail Services</h2><p>Beautiful finishes, carefully styled. Choose a service and book directly with Lucy Nails.</p></div>
+<div class="cards">
+<article class="card"><div class="num">01 / NAIL SERVICE</div><h3>Gel</h3><p>A glossy, polished finish for a neat and beautiful look.</p><div class="pricebar"><span class="price">KSh 300</span><a class="book" href="#" data-service="Gel" data-price="300">Book now ↗</a></div></article>
+<article class="card"><div class="num">02 / NAIL SERVICE</div><h3>Tips</h3><p>Add length and style with a beautiful nail extension look.</p><div class="pricebar"><span class="price">KSh 500</span><a class="book" href="#" data-service="Tips" data-price="500">Book now ↗</a></div></article>
+<article class="card"><div class="num">03 / NAIL SERVICE</div><h3>Builder</h3><p>A structured nail finish for an elegant, polished look.</p><div class="pricebar"><span class="price">KSh 700</span><a class="book" href="#" data-service="Builder" data-price="700">Book now ↗</a></div></article>
+</div></div></section>
+<section class="gallery" id="gallery"><div class="wrap"><div class="intro"><div class="eyebrow">A glimpse of our work</div><h2>Love the Details</h2><p>Explore a few nail looks from Lucy Nails.</p></div><div class="photos"><img src="images/nails-french-tips.jpg" alt="French tip nails by Lucy Nails"><img src="images/nails-pink-art.jpg" alt="Pink nail art by Lucy Nails"><img src="images/nails-burgundy-pink.jpg" alt="Burgundy and pink manicure by Lucy Nails"></div></div></section>
+<div class="banner"><h2>Made to Make You Feel Beautiful</h2><p>From a simple, glossy finish to a statement look, Lucy Nails is here to help you express your style, one set at a time.</p></div>
+<section class="contact" id="contact"><div class="wrap"><div class="eyebrow">Your next set starts here</div><h2>Ready for Your Nail Appointment?</h2><p>Send Lucy Nails a WhatsApp message to ask a question or book your preferred service.</p><a class="btn" href="https://wa.me/254704219721?text=Hello%20Lucy%20Nails%2C%20I%27d%20like%20to%20make%20an%20appointment." target="_blank" rel="noopener">Book Your Appointment on WhatsApp</a></div></section>
+</main>
+<footer><strong>Lucy Nails</strong><br>Beautiful Nails. Beautiful You.<div class="credit">Website concept by JACK JUSTINS STUDIO</div></footer>
+<a class="float" href="https://wa.me/254704219721?text=Hello%20Lucy%20Nails%2C%20I%27d%20like%20to%20make%20an%20appointment." target="_blank" rel="noopener">WhatsApp Booking</a>
+<script>
+const LUCY_WHATSAPP="254704219721";
+document.querySelectorAll("[data-service]").forEach(link=>link.addEventListener("click",e=>{
+e.preventDefault();const service=link.dataset.service,price=link.dataset.price;
+const message=`Hello Lucy Nails! I'd like to book ${service} (KSh ${price}). Please let me know your available appointment times.`;
+window.open(`https://wa.me/${LUCY_WHATSAPP}?text=${encodeURIComponent(message)}`,"_blank");
+}));
+</script>
+</body></html>
